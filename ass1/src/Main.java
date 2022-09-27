@@ -33,7 +33,6 @@ public class Main {
         sociology
     }
     public static void main(String[] args){
-
         ArrayList<Student>list=new ArrayList();
         Scanner in = new Scanner(System.in);
         String name;
@@ -41,7 +40,7 @@ public class Main {
         String sup,hos,res1,res2,lab;
         int ba;
         Student ob1 = null;
-        Master ob2 = null;
+        Master ob2 = new Master();
         Medical ob3 ;
         Engineering ob4 ;
 

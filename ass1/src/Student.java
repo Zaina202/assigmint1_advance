@@ -6,6 +6,11 @@ public class Student {
     protected LocalDate dateOfBirth;
     protected static int count=1;
 
+    public Student(){
+        this.name=null;
+        this.ID=0;
+        this.dateOfBirth=LocalDate.of(1111,1,1);
+    }
     public Student(String Name,int year,int month ,int day){
         this.ID=count;
         this.name=Name;
